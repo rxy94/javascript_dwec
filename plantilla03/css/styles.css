@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #cfbcf8ce;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+}
+
+header {
+    background-color:#D9B573;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 5rem;
+}
+
+.descripcion {
+    text-align: center;
+    text-shadow: 2px 2px 4px rgb(0,0,0,0.75);
+}
+
+nav {
+    background-color: #9F84D9;
+    padding: 20px;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+    display: block;
+    float: left;
+    text-shadow: 2px 2px 4px rgb(0,0,0,0.75);
+    text-align: center;
+    padding: 10px 16px;
+}
+
+a:hover {
+    color: #D9B573;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 50px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: auto;
+    border: 1px solid rgb(211,211,211,0.5);
+    box-shadow: 2px 2px 8px 4px  rgba(157, 129, 137, 0.826);
+    border-radius: 15px;
+    font-family: sans-serif;
+    background-color: #F2F2EB;
+}
+
+.cardTitle {
+    font-size: 1.5em;
+    padding: 10px 10px 0 10px;
+    color: #9F84D9;
+    text-align: center;
+    font-weight: bold;
+}
+
+.cardBody {
+    padding: 20px;
+    flex: 1 1 100%;
+    font-size: 1em;
+    color: rgb(157, 129, 137);
+}
+
+.cardFooter {
+    background: #d9b5739c;
+    border-radius: 0 0 15px 15px;
+    padding: 10px;
+    text-align: center;
+}
+
+.cardFooter a {
+    text-decoration: none;
+    color: #F2F2EB;
+    text-shadow: 2px 2px 4px rgb(0,0,0,0.25);
+}
+
+.cardFooter a:hover {
+    color: rgb(157, 129, 137);
+}
+
+footer {
+    background-color: #9F84D9;
+    text-align: center;
+    padding: 20px;
+    color: rgb(255,250,250,0.90);
+    text-shadow: 2px 2px 4px rgb(0,0,0,0.75);
+}
