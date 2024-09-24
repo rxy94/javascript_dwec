@@ -3,11 +3,11 @@ body {
     padding: 0;
     background-color: #cfbcf8ce;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color: aliceblue;
+    color: #9F84D9;
 }
 
 header {
-    background-color:#D9B573;
+    background-color:rgb(228,217,217);
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
@@ -17,11 +17,11 @@ header {
 
 .descripcion {
     text-align: center;
-    text-shadow: 2px 2px 4px rgb(0,0,0,0.75);
+    font-size: 1.2em;
 }
 
 nav {
-    background-color: #9F84D9;
+    background-color: rgb(124,113,167);
     padding: 20px;
     overflow: hidden;
 }
@@ -76,7 +76,7 @@ a:hover {
 }
 
 .cardFooter {
-    background: #d9b5739c;
+    background: rgb(228, 208, 208);
     border-radius: 0 0 15px 15px;
     padding: 10px;
     text-align: center;
@@ -84,18 +84,19 @@ a:hover {
 
 .cardFooter a {
     text-decoration: none;
-    color: #F2F2EB;
-    text-shadow: 2px 2px 4px rgb(0,0,0,0.25);
+    color: aliceblue;
+    text-shadow: 2px 2px 4px rgb(0,0,0,0.75);;
 }
 
 .cardFooter a:hover {
-    color: rgb(157, 129, 137);
+    color: #D9B573;
+    text-shadow: none;
 }
 
 footer {
-    background-color: #9F84D9;
+    background-color: rgb(124,113,167);
     text-align: center;
     padding: 20px;
-    color: rgb(255,250,250,0.90);
+    color: aliceblue;
     text-shadow: 2px 2px 4px rgb(0,0,0,0.75);
 }
