@@ -3,5 +3,5 @@
 
 <h2>Contenidos:</h2>
 <ul>
-  <li>Plantilla03</li>
+  <li>Plantilla03: Refactorización de JS</li>
 </ul>
