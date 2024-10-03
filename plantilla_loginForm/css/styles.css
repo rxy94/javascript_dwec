@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #cfbcf8ce ;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    color:  rgb(124,113,167) ;
+}
+
+header {
+    background-color:rgb(228,217,217) ;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 5rem;
+    display: none;
+}
+
+#loginCard {
+    padding-inline: 20px;
+    margin-top: 10%;
+}
+
+#loginForm {
+    color: #9F84D9;
+}
+
+#loginTitle {
+    font-size: 1.5em;
+}
+
+input {
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    margin-block: 10px;
+}
+
+#loginButton {
+    padding: 10px 15px;
+    background-color: rgb(124,113,167) ;
+    color: aliceblue ;
+    border: none;
+    border-radius: 10px;
+}
+
+#loginButton:hover {
+    background-color: #9F84D9 ;
+}
+
+.descripcion {
+    text-align: center;
+    font-size: 1.2em ;
+}
+
+nav {
+    background-color: rgb(124,113,167) ;
+    padding: 20px;
+    overflow: hidden;
+    display: none;
+}
+
+a {
+    text-decoration: none ;
+    color: aliceblue ;
+    display: block;
+    float: left;
+    text-shadow: 2px 2px 4px rgb(0,0,0,0.75);
+    text-align: center;
+    padding: 10px 16px;
+}
+
+a:hover {
+    color: #D9B573 ;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 50px;
+}
+
+#mainContent {
+    display: none;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: auto;
+    border: 1px solid rgb(211,211,211,0.5) ;
+    box-shadow: 2px 2px 8px 4px  rgba(157, 129, 137, 0.826) ;
+    border-radius: 15px;
+    font-family: sans-serif;
+    background-color: #F2F2EB ;
+}
+
+.cardTitle {
+    font-size: 1.5em;
+    padding: 10px 10px 0 10px;
+    color: #9F84D9 ;
+    text-align: center;
+    font-weight: bold;
+}
+
+.cardBody {
+    padding: 20px;
+    flex: 1 1 100%;
+    font-size: 1em;
+    color: rgb(157, 129, 137) ;
+}
+
+.cardFooter {
+    background: rgb(228, 208, 208) ;
+    border-radius: 0 0 15px 15px;
+    padding: 10px;
+    text-align: center;
+}
+
+.cardFooter a {
+    text-decoration: none;
+    color: aliceblue ;
+    text-shadow: 2px 2px 4px rgb(0,0,0,0.75) ;
+}
+
+.cardFooter a:hover {
+    color: #D9B573 ;
+    text-shadow: none;
+}
+
+#boton {
+    background-color:  rgb(205, 181, 188);
+    color: aliceblue;
+    box-shadow: 2px 2px 2px 0px  rgba(157, 129, 137, 0.826);
+}
+
+footer {
+    background-color: rgb(124,113,167) ;
+    text-align: center;
+    padding: 20px;
+    color: aliceblue ;
+    text-shadow: 2px 2px 4px rgb(0,0,0,0.75) ;
+    display: none;
+}
