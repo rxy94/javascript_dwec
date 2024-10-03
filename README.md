@@ -26,4 +26,4 @@
   <p>- Manipulación del DOM.</p>
 </ul>
 
-<p>Autora: Ruyi Xia Ye</p>
+<footer>Autora: Ruyi Xia Ye</footer>
