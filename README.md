@@ -13,6 +13,7 @@
   <br/>
   <p>- Refatorización de código JS</p>
   <p>- Scaffolding o andamiaje de las carpetas.</p>
+  <p>- Creación de los scripts funciones.js y script.js que incluyen las funciones que modifican el DOM.</p>
 
   <li>Plantilla_ventanas: Log in mediante el uso de ventanas emergentes.</li>
   <br/>
