@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <h1>Portafolio de ejercicios JS - Desarrollo Web en Entorno Cliente</h1>
 
 <h2>Contenidos:</h2>
@@ -6,6 +7,13 @@
   <li>Barra de navegación con enlaces a documentación, GitHub y ejercicios que se irán añadiendo.</li>
   <li>Main donde aparecerán los contenidos de los ejercicios.</li>
   <li>Footer o pie de página.</li>
+=======
+<h1>Ejercicios de JavaScript - Desarrollo Web en Entorno Cliente</h1>
+
+<h2>Contenidos:</h2>
+<ul>
+  <li>Plantilla03: Refactorización de JS</li>
+>>>>>>> ef49824285bf402d6cdb04733e4ddfdf1f2bda92
 </ul>
 
 <h2>Carpetas:</h2>
