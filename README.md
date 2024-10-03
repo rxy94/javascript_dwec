@@ -10,20 +10,25 @@
 <h2>Carpetas:</h2>
 <ul>
   <li>Plantilla03: Refactorización.</li>
+  <br/>
   <p>- Refatorización de código JS</p>
   <p>- Scaffolding o andamiaje de las carpetas.</p>
 
   <li>Plantilla_ventanas: Log in mediante el uso de ventanas emergentes.</li>
+  <br/>
   <p>- Uso de ventanas prompt, confirm y alert.</p>
+  <p>- Creación de la función login() en un script llamado login.js</p>
   <p>- Validación de credenciales.</p>
   <p>- Manejo de errores.</p>
   <p>- Manipulación del DOM.</p>
 
-  <li>Plantilla_loginForm: Log in sin sesión mediante formulario log-in</li>
-  <p>Creación de la función login() en un script llamado login.js</p>
+  <li>Plantilla_loginForm: Log in sin sesión mediante formulario log-in.</li>
+  <br/>
+  <p>- Modificación de la función login() del script llamado login.js</p>
   <p>- Validación de credenciales.</p>
   <p>- Manejo de errores.</p>
   <p>- Manipulación del DOM.</p>
 </ul>
-
+<br/>
+<br/>
 <footer>Autora: Ruyi Xia Ye</footer>
