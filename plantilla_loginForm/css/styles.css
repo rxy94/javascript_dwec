@@ -139,6 +139,11 @@ a:hover {
     box-shadow: 2px 2px 2px 0px  rgba(157, 129, 137, 0.826);
 }
 
+#message {
+    color: rgb(13, 154, 13);
+    display: none;
+}
+
 footer {
     background-color: rgb(124,113,167) ;
     text-align: center;

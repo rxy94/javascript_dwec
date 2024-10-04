@@ -14,6 +14,8 @@ document.getElementById("loginButton").addEventListener('click', function(event)
     const cabecera = document.getElementById("head") ;
     const navBar = document.getElementById("navBar") ;
     const footer = document.getElementById("foot") ;
+    const message = document.getElementById("message") ;
+    const loginForm = document.getElementById("loginForm") ;
 
     if(!usernameInput || !passwordInput) {
         alert("Por favor, complete todos los campos") ;
@@ -30,18 +32,29 @@ document.getElementById("loginButton").addEventListener('click', function(event)
     }
 
     if(usernameInput !== storedUsername || passwordInput !== storedPassword) {
-        alert("Usuario o contraseña incorrectas") ;
+        message.style.color = "red" ;
+        message.style.display = 'block' ;
+        message.innerHTML = "Usuario o contraseña incorrectas" ;
         resetForm() ;
         return ;
-    } 
 
-    alert("¡Bienvenido!") ;
+    } else {
+        message.style.color = "green" ;
+        message.style.display = 'block' ;
+        message.innerHTML = "¡Bienvenido!" ;
 
-    loginCard.style.display = 'none' ;
-    mainContent.style.display = 'flex' ;
-    cabecera.style.display = 'flex' ;
-    navBar.style.display = 'block' ;
-    footer.style.display = 'block' ;
+        setTimeout(function() {
+
+            loginCard.style.display = 'none' ;
+            mainContent.style.display = 'flex' ;
+            cabecera.style.display = 'flex' ;
+            navBar.style.display = 'block' ;
+            footer.style.display = 'block' ;
+            resetForm() ;
+
+        }, 2000) ;
+
+    }
 
 }) ;
 
