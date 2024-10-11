@@ -31,6 +31,7 @@
   <p>- Manipulación del DOM.</p>
 
   <li>Plantilla_cookies: Log in con cookies.</li>
+  <br/>
   <p>- Adición de un pattern en el input username del archivo login.html</p>
   <p>- Adición de un home o landing page a partir de la cuál se irán seleccionando los ejercicios.</p>
   <p>- Creación y manejo de la cookie con los scripts: setCookie.js, getCookie.js, eraseCookie.js</p>
