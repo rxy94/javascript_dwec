@@ -1,7 +1,5 @@
 "use strict"
 
-//let datosAcceso = [];
-
 if (window.sessionStorage) { 
     const nombre = document.getElementById("nombre"); 
     const valor = document.getElementById("valor"); 

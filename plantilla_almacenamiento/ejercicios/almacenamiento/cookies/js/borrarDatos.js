@@ -15,5 +15,4 @@ function borrarDatos(nombre) {
     document.cookie = nombre + "=;expires=" + fechaActual.toUTCString() + ";path=./;SameSite=Strict;Secure"; 
 
     mostrarDatos();
-    //window.location.reload(); /* Recargo la página para que se dejen de mostrar los datos borrados */
 }
