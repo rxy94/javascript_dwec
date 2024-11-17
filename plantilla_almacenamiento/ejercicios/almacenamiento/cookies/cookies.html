@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <link rel="stylesheet" href="css/cookies.css">
+    <link rel="shortcut icon" href="../../../img/favicon.ico" type="image/x-icon">
+    <script defer src="js/borrarDatos.js"></script>
+    <script defer src="js/grabarDatos.js"></script>
+    <script defer src="js/mostrarDatos.js"></script>
+    <script defer src="js/script.js"></script>
+</head>
+<body>
+    <!------------ HEADER ----------->
+    <header>
+        <div class="descripcion">
+            <h3>Ejemplos - FUNDAMENTOS DE JS (ES6)</h3>
+            <h4>Desarrollo Web en Entorno Cliente</h4>
+            <h5>Almacenamiento con Cookies</h5>
+        </div>
+        <div>
+            <img src="../../../img/ruyi.png" alt="foto alumna">
+        </div>
+    </header>
+    <!------------ MENU ------------->
+    <nav>
+        <ul>
+            <li><a id="home" href="../../index.html" class="home-link">Home</a></li>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Recursos</a>
+                <div class="dropdown-content">
+                    <a href="https://www.w3schools.com/js/default.asp" target="_blank">w3schools</a>
+                    <a href="https://javascript.info/" target="_blank">javascript.info</a>
+                    <a href="https://developer.mozilla.org/es/docs/Web/JavaScript" target="_blank">MDN</a>
+                </div>
+            </li>
+            <li><a href="https://github.com/rxy94/javascript_dwec" target="_blank">GitHub</a></li>
+            <li><a id="dom" href="../../dom/dom.html">DOM</a></li>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Number</a>
+                <div class="dropdown-content">
+                    <a id="miniCalculadora" href="../../miniCalculadora/miniCalculadora.html">Mini-calculadora</a>
+                    <a id="cambioBases" href="../../cambioBases/cambioBases.html">Cambio-bases</a>
+                    <a id="calculadora" href="../../calculadora/calculadora.html">Calculadora</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">String</a>
+                <div class="dropdown-content">
+                    <a id="conversorTexto" href="../../strings/modificarTexto.html">Conversor-texto</a>
+                    <a id="api"  href="../../strings/modificarTextoApi.html">API</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Arrays</a>
+                <div class="dropdown-content">
+                    <a id="matrices" href="../../arrays/operacionesMatrices.html">Operaciones-matrices</a>
+                    <a id="testing"  href="../../arrays/testing.html">Testing</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Almacenamiento</a>
+                <div class="dropdown-content">
+                    <a id="cookies" href="#">Cookies</a>
+                    <a id="sessionStorage" href="../sessionStorage/sessionStorage.html">Session storage</a>
+                    <a id="localStorage" href="../localStorage/localStorage.html">Local storage</a>
+                    <a id="indexedDB" href="../indexedDB/indexedDB.html">IndexedDB</a>
+                </div>
+            </li>
+            <li><a id="logout" href="../../../login.html">Cerrar sesión</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="card">
+            <div class="cardTitle">
+                <h2>CRUD con Cookies</h2>
+            </div>
+        
+            <div class="cardBody">
+                <fieldset>
+                    <legend>Guardar nombre y valor</legend>
+                    <table id="tabla" class="filas">
+                        <thead>
+                            <tr>
+                                <th><label for="nombre">Introduce un nombre:</label></th>
+                                <th><label for="valor">Introduce un valor:</label></th>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <input type="text" id="nombre" class="control" name="nombre" size="20" placeholder="Introduce un nombre..." required>
+                                </th>
+                                <th>
+                                    <input type="text" id="valor" class="control" name="valor" size="20" placeholder="Introduce un valor..." required>
+                                </th>
+                                <th>
+                                    <button type="submit" id="guardar">Guardar</button>
+                                </th>
+                            </tr>
+                        </thead>
+
+                        <tbody id="cuerpo">
+                        </tbody>
+                    </table>
+                </fieldset>
+            </div>
+        </div>
+    </div>
+    <br>
+    <!----------- FOOTER ----------->
+    <footer>
+        © Ruyi Xia Ye - 2º DAW
+    </footer>
+</body>
+</html>

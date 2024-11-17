@@ -41,14 +41,14 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     /**
-     * Función para calcular la expresión introducida
+     * Función para calcular la expresión introducida en la pantalla de la calculadora
      */
     function calcularExpresion(exp) {
-        // Solo permitimos números y operadores válidos
+        // Elimina aquellos caracteres que no han sido definidos dentro de la expresión
         exp = exp.replace(/[^0-9+\-*/().]/g, ''); 
 
         // Devuelve el resultado de la evaluación de la expresión matemática
-        return new Function('return ' + exp)();
+        return new Function("return " + exp)();
     }
 
 });
