@@ -83,6 +83,7 @@
   <p>- Creación de los scripts JS: grabar.js, borrar.js, mostrar.js y script.js en cada uno de los ejercicios de la carpeta almacenamiento.</p>
   <p>- Manejo de cookies, sessionStorage, localStorage e indexedDB.</p>
   <p>- Uso de la API Rick & Morty en el ejercicio de indexedDB.</p>
+  <p>- En el ejercicio de indexedDB, aparte de mostrar imágenes de la API, también se pueden cargar imágenes desde local siempre y cuando éstas se encuentren dentro de la misma carpeta de indexedDB. Para verificar esto, en el placeholder de la url de la imagen he puesto la ruta a una imagen local.</p>
   <p>- Manipulación del DOM: eventos, creación dinámica de elementos HTML.</p>
 
 </ul>
