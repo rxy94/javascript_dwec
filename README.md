@@ -33,7 +33,6 @@
   <p>- Manipulación del DOM.</p>
 
   <li>Plantilla_cookies: Manejo de cookies y numbers.</li>
-  <p><strong>(última actualización: 17/11/24)</strong></p>
   <br/>
   <p>- NOTA: para la visualización una correcta ejecución de las cookies es necesario usar LiveServer y el navegador Mozilla Firefox. La manipulación de las cookies desde la consola con Google Chrome es limitada.</p>
   <p>- Adición del proyecto de Number: Calculadora cuyo enlace se incluye en la pestaña desplegable de Number.</p>
@@ -78,13 +77,20 @@
   <p>- Manejo de los métodos de manipulación del DOM: createElement(), createTextNode(), appendChild() y replaceChildren() para la creación de la matriz resultante.</p>
 
   <li>Plantilla_almacenamiento: ejercicios CRUD usando cookies, sessionStorage, localStorage e indexedDB + API</li>
-  <p><strong>(Nueva creación: 17/11/24)</strong></p>
   <br/>
   <p>- Creación de los scripts JS: grabar.js, borrar.js, mostrar.js y script.js en cada uno de los ejercicios de la carpeta almacenamiento.</p>
   <p>- Manejo de cookies, sessionStorage, localStorage e indexedDB.</p>
   <p>- Uso de la API Rick & Morty en el ejercicio de indexedDB.</p>
   <p>- En el ejercicio de indexedDB, aparte de mostrar imágenes de la API, también se pueden cargar imágenes desde local siempre y cuando éstas se encuentren dentro de la misma carpeta de indexedDB. Para verificar esto, en el placeholder de la url de la imagen he puesto la ruta a una imagen local.</p>
   <p>- Manipulación del DOM: eventos, creación dinámica de elementos HTML.</p>
+
+  <li>Plantilla_poo: manejo de estructuras de datos con POO y modularización</li>
+  <p><strong>(Nueva creación: 23/11/24)</strong></p>
+  <br/>
+  <p>NOTA: para la visualización y funcionamiento correctos de los ejercicios es necesario usar Live Server, ya que los scripts JS se importan de manera dinámica.</p>
+  <p>- Creación de la sección Estructuras, que contiene los ejercicios de Pila, Cola y Lista.</p>
+  <p>- Creación y manejo de clases, objetos y métodos en cada estructura de datos.</p>
+  <p>- Modularización de los scripts, uso de import y export.</p>
 
 </ul>
 <br/>

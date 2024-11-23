@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <link rel="stylesheet" href="css/pila.css">
+    <link rel="shortcut icon" href="../../../img/favicon.ico" type="image/x-icon">
+    <script src="main.js" type="module"></script>
+</head>
+<body>
+    <!------------ HEADER ----------->
+    <header>
+        <div class="descripcion">
+            <h3>Ejemplos - FUNDAMENTOS DE JS (ES6)</h3>
+            <h4>Desarrollo Web en Entorno Cliente</h4>
+            <h5>Estructura de datos - Pila</h5>
+        </div>
+        <div>
+            <img src="../../../img/ruyi.png" alt="foto alumna">
+        </div>
+    </header>
+    <!------------ MENU ------------->
+    <nav>
+        <ul>
+            <li><a id="home" href="../../index.html" class="home-link">Home</a></li>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Recursos</a>
+                <div class="dropdown-content">
+                    <a href="https://www.w3schools.com/js/default.asp" target="_blank">w3schools</a>
+                    <a href="https://javascript.info/" target="_blank">javascript.info</a>
+                    <a href="https://developer.mozilla.org/es/docs/Web/JavaScript" target="_blank">MDN</a>
+                </div>
+            </li>
+            <li><a href="https://github.com/rxy94/javascript_dwec" target="_blank">GitHub</a></li>
+            <li><a id="dom" href="../../dom/dom.html">DOM</a></li>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Number</a>
+                <div class="dropdown-content">
+                    <a href="../../miniCalculadora/miniCalculadora.html">Mini-calculadora</a>
+                    <a href="../../cambioBases/cambioBases.html">Cambio-bases</a>
+                    <a href="../../calculadora/calculadora.html">Calculadora</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">String</a>
+                <div class="dropdown-content">
+                    <a href="../../strings/modificarTexto.html">Conversor-texto</a>
+                    <a href="../../strings/modificarTextoApi.html">API</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Arrays</a>
+                <div class="dropdown-content">
+                    <a href="../../arrays/operacionesMatrices.html">Operaciones-matrices</a>
+                    <a href="../../arrays/testing.html">Testing</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Almacenamiento</a>
+                <div class="dropdown-content">
+                    <a href="../../almacenamiento/cookies/cookies.html">Cookies</a>
+                    <a href="../../almacenamiento/sessionStorage/sessionStorage.html">Session storage</a>
+                    <a href="../../almacenamiento/localStorage/localStorage.html">Local storage</a>
+                    <a href="../../almacenamiento/indexedDB/indexedDB.html">IndexedDB</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Estructuras</a>
+                <div class="dropdown-content">
+                    <a href="#">Pila</a>
+                    <a href="../cola/cola.html">Cola</a>
+                    <a href="../lista/lista.html">Lista</a>
+                </div>
+            </li>
+            <li><a id="logout" href="../../../login.html">Cerrar sesión</a></li>
+        </ul>
+    </nav>
+    <!------------ MAIN CONTENT ------------->
+    <div class="container">
+        <div class="card">
+            <div class="cardTitle">
+                <h2>Gestión de la colada con una Pila</h2>
+            </div>
+        
+            <div class="cardBody">
+                <div>
+                    <button type="submit" id="aniadir">Introducir prenda</button>
+                    <button type="submit" id="sacar">Sacar prenda</button>
+                </div>
+                <br>
+                <div>
+                    <div id="cuerpo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <!----------- FOOTER ----------->
+    <footer>
+        © Ruyi Xia Ye - 2º DAW
+    </footer>
+</body>
+</html>

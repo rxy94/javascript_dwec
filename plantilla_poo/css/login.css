@@ -1,0 +1,63 @@
+body {
+	background-image: url(../img/bg.jpg);
+	color: rgb(124,113,167);
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 2rem;
+	justify-content: center;
+	padding: 50px;
+}
+.card {
+	background-color: #F2F2EB;
+	border: 1px solid rgb(124,113,167);
+	border-radius: 15px;
+	box-shadow: 2px 2px 8px 4px rgb(124,113,167);  
+	display: flex;
+	flex-direction: column;
+	font-family: sans-serif;
+	justify-content: space-between;
+	width: auto;
+}
+.cardBody {
+	color: rgb(157, 129, 137);
+	flex: 1 1 100%;
+	font-size: 1em;
+	padding: 20px;
+}
+#loginCard {
+	margin-top: 10%;
+	padding-bottom: 10px;
+	padding-inline: 30px;
+}
+#loginForm {
+	color: #9F84D9;
+}
+#loginTitle {
+	font-size: 1.5em;
+}
+input {
+	border: none;
+	border-radius: 5px;
+	margin-block: 10px;
+	padding: 10px;
+}
+#loginButton {
+	background-color: rgb(124,113,167);
+	border: none;
+	border-radius: 10px;
+	color: aliceblue;
+	margin-top: 10px;
+	padding: 10px 15px;
+}
+#loginButton:hover {
+	background-color: #9F84D9;
+}
+#message {
+	color: rgb(13, 154, 13);
+	display: none;
+}
