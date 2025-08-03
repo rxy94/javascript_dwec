@@ -1,98 +1,75 @@
-<h1>Portafolio de ejercicios JS - Desarrollo Web en Entorno Cliente</h1>
+# Portafolio de ejercicios JS - Desarrollo Web en Entorno Cliente
 
-<h2>Contenidos:</h2>
-<ul>
-  <li>Login: aparece antes de entrar al index.html (background modificado: se incluye una imagen de fondo)</li>
-  <li>Header con foto de la alumna.</li>
-  <li>Barra de navegación con enlaces a documentación, GitHub y ejercicios que se irán añadiendo.</li>
-  <li>Home donde aparecerá un mensaje y una imagen de JS.</li>
-  <li>Footer o pie de página.</li>
+## Contenidos
+- Login con imagen de fondo antes de `index.html`
+- Header con foto de la alumna
+- Barra de navegación con enlaces a documentación, GitHub y ejercicios
+- Home con mensaje de bienvenida e imagen de JS
+- Footer o pie de página
 
-<h2>Carpetas:</h2>
-<ul>
+## Carpetas
 
-  <li>Plantilla03: Refactorización.</li>
-  <br/>
-  <p>- Refatorización de código JS</p>
-  <p>- Scaffolding o andamiaje de las carpetas.</p>
-  <p>- Creación de los scripts funciones.js y script.js que incluyen las funciones que modifican el DOM.</p>
+### [Plantilla03: Refactorización](https://rxy94.github.io/javascript_dwec/plantilla03/)
+- Refactorización de código JS
+- Scaffolding de carpetas
+- Scripts `funciones.js` y `script.js` con manipulación del DOM
 
-  <li>Plantilla_ventanas: Log in mediante el uso de ventanas emergentes.</li>
-  <br/>
-  <p>- Uso de ventanas prompt, confirm y alert.</p>
-  <p>- Creación de la función login() en un script llamado login.js</p>
-  <p>- Validación de credenciales.</p>
-  <p>- Manejo de errores.</p>
-  <p>- Manipulación del DOM.</p>
+### [Plantilla_ventanas: Login con ventanas emergentes](https://rxy94.github.io/javascript_dwec/plantilla_ventanas/)
+- Uso de `prompt`, `confirm` y `alert`
+- Script `login.js` con función `login()`
+- Validación de credenciales, manejo de errores y DOM
 
-  <li>Plantilla_loginForm: Log in sin sesión mediante formulario log-in.</li>
-  <br/>
-  <p>- Modificación de la función login() del script llamado login.js</p>
-  <p>- Validación de credenciales.</p>
-  <p>- Manejo de errores.</p>
-  <p>- Manipulación del DOM.</p>
+### [Plantilla_loginForm: Login por formulario](https://rxy94.github.io/javascript_dwec/plantilla_loginForm/)
+- Validación sin sesión a través de formulario
+- Script `login.js` adaptado
+- Manejo de errores y DOM
 
-  <li>Plantilla_cookies: Manejo de cookies y numbers.</li>
-  <br/>
-  <p>- NOTA: para la visualización una correcta ejecución de las cookies es necesario usar LiveServer y el navegador Mozilla Firefox. La manipulación de las cookies desde la consola con Google Chrome es limitada.</p>
-  <p>- Adición del proyecto de Number: Calculadora cuyo enlace se incluye en la pestaña desplegable de Number.</p>
-  <p>- Creación del script JS para Calculadora, calculadora.js, que incluye la funcionalidad del mismo. Nota: modificación del script calculadora.js, descarte del uso de la función eval()</p>
-  <p>- Adición de un pattern en el input username del archivo login.html</p>
-  <p>- Adición de un home o landing page a partir de la cuál se irán seleccionando los ejercicios.</p>
-  <p>- Creación y manejo de la cookie con los scripts: setCookie.js, getCookie.js, eraseCookie.js</p>
-  <p>- Adición de un enlace para cerrar sesión y que redirija al login.html.</p>
-  <p>- Modificación del script script.js añadiendo una función para que cuando se regarguen las páginas compruebe si la cookie ha expirado o no. Si expira nos redirije al login.html.</p>
-  <p>- Introducción de una ventana desplegable en el navbar llamada Recursos donde se podrá acceder a la documentación de JS.</p>
-  <p>- Introducción de una ventana desplegable en el navbar llamada Number donde se irán añadiendo ejercicios relacionados con el manejo de números en JS.</p>
-  <p>- Adición de los ejercicios: Mini-calculadora y Cambio-bases en la sección de Number.</p>
-  <p>- Creación de los scripts miniCalculadora.js y cambioBases.js.</p>
-  <p>- Creación de los CSS específicos para los ejercicios Mini-calculadora y Cambio-bases.</p>
-  <p>- Creación de la sección DOM donde se introducen los ejercicios de modificación del DOM de la plantilla03.</p>
+### [Plantilla_cookies: Cookies y números](https://rxy94.github.io/javascript_dwec/plantilla_cookies/login.html)
+- Manejo de cookies (LiveServer + Firefox recomendado)
+- Proyecto calculadora (`calculadora.js`) sin `eval()`
+- Scripts: `setCookie.js`, `getCookie.js`, `eraseCookie.js`
+- Sección **Number**: Mini-calculadora y Cambio-bases
+- Scripts: `miniCalculadora.js`, `cambioBases.js`
+- Verificación de expiración de cookies
+- Introducción de secciones **Recursos**, **Number**, y **DOM**
 
-  <li>Plantilla_string: Manejo de LocalStorage, API y strings</li>
-  <br/>
-  <p>- Sustitución del pattern en el login.html por una expresión regular, tanto para el username como el password.</p>
-  <p>- Creación de los scripts para el manejo de localStorage: setLocalStorage.js, getLocalStorage.js y deleteLocalStorage.js.</p>
-  <p>- Introducción de la ventana desplegable String que contiene los ejercicios: Modificar-texto y API.</p>
-  <p>- Modificar-texto: manipulación de strings con funciones de JS.</p>
-  <p>- Creación del script modificarTexto.js.</p>
-  <p>- API: al ejercicio Modificar-texto se le añade la opción de cargar un texto desde una API mediante el uso de funciones asíncronas y promesas.</p>
-  <p>- Creación del script modificarTextoApi.js.</p>
+### [Plantilla_string: LocalStorage, API y strings](https://rxy94.github.io/javascript_dwec/plantilla_string/login.html)
+- Validación con expresiones regulares
+- Scripts: `setLocalStorage.js`, `getLocalStorage.js`, `deleteLocalStorage.js`
+- Sección **String** con ejercicios:
+  - `modificarTexto.js` (manipulación de strings)
+  - `modificarTextoApi.js` (cargar texto desde API con `async/await` y promesas)
 
-  <li>Plantilla_arrays_indexedDB: Manejo de IndexedDB y arrays</li>
-  <br/>
-  <p>- Manejo del login con el uso de IndexedDB de forma asíncrona.</p>
-  <p>- Creación de los ficheros JS para manejar IndexedDB:</p>
-  <p>1) IndexedDB: incluye la función que abre y crea (si no está creada) la base de datos.</p>
-  <p>2) setIndexedDB: almacena el usuario logueado en IndexedDB.</p>
-  <p>3) getIndexedDB: recupera el usuario logueado del IndexedDB.</p>
-  <p>3) deleteIndexedDB: elimina el usuario logueado del IndexedDB.</p>
-  <p>Tanto en getIndexedBD como en deletIndexedDB he tenido que hacer uso del método .openCursor() para poder
-      acceder al usuario logueado(primer registro ) dentro de IndexedDB, ya que al usar el "name" como keyPath no recuperaba los datos del usuario logueado correctamente y, por tanto, tampoco se eliminaba de IndexedDB una vez cerrada la sesión.</p>
-  <p>- Modificación del script login.js para que funcione de forma asíncrona y ejecute correctamente las funciones de IndexedDB.</p>
-  <p>- Adición de la pestaña desplegable Array en el Nav. </p>
-  <p>- La sección de Array incluye los ejercicios: </p>
-  <p>1)Operaciones con Matrices: introducción manual de la dimensión de la matriz cuadrada para generar 2 matrices con las que se realizarán las operaciones de sumar, restar o multiplicar dependiendo de qué botón se pulse, y la matriz resultante aparecerá seguidamente</p>
-  <p>2)Operaciones con Matrices + Testing: adición al ejercicio de operaciones con matrices de una función aleatoria que genera la dimensión de la matriz y sus valores mínimo y máximo. A su vez se añade la funcionalidad de que las operaciones sumar, restar y multiplicar sean realizadas de forma aleatoria al pulsar el botón Aleatorio. Esta última funcionalidad se puede controlar para que se haga más rápido, lento o pare con funciones y eventos añadidos al script JS.</p>
-  <p>- Manejo de los métodos de manipulación del DOM: createElement(), createTextNode(), appendChild() y replaceChildren() para la creación de la matriz resultante.</p>
+### [Plantilla_arrays_indexedDB: IndexedDB y arrays](https://rxy94.github.io/javascript_dwec/plantilla_arrays_indexedDB/login.html)
+- Login asíncrono con IndexedDB
+- Scripts:
+  - `indexedDB.js`
+  - `setIndexedDB.js`, `getIndexedDB.js`, `deleteIndexedDB.js`
+- Acceso con `.openCursor()` por problemas con `keyPath`
+- Sección **Array** con ejercicios:
+  - Operaciones con matrices (suma, resta, multiplicación)
+  - Operaciones aleatorias con control de tiempo
+- Uso intensivo del DOM con `createElement()`, `appendChild()`, etc.
 
-  <li>Plantilla_almacenamiento: ejercicios CRUD usando cookies, sessionStorage, localStorage e indexedDB + API</li>
-  <br/>
-  <p>- Creación de los scripts JS: grabar.js, borrar.js, mostrar.js y script.js en cada uno de los ejercicios de la carpeta almacenamiento.</p>
-  <p>- Manejo de cookies, sessionStorage, localStorage e indexedDB.</p>
-  <p>- Uso de la API Rick & Morty en el ejercicio de indexedDB.</p>
-  <p>- En el ejercicio de indexedDB, aparte de mostrar imágenes de la API, también se pueden cargar imágenes desde local siempre y cuando éstas se encuentren dentro de la misma carpeta de indexedDB. Para verificar esto, en el placeholder de la url de la imagen he puesto la ruta a una imagen local.</p>
-  <p>- Manipulación del DOM: eventos, creación dinámica de elementos HTML.</p>
+### [Plantilla_almacenamiento: CRUD con almacenamiento y API](https://rxy94.github.io/javascript_dwec/plantilla_almacenamiento/login.html)
+- Scripts: `grabar.js`, `borrar.js`, `mostrar.js`, `script.js`
+- Uso de `cookies`, `sessionStorage`, `localStorage`, `indexedDB`
+- API Rick & Morty + carga local de imágenes
+- DOM dinámico: creación de elementos, eventos, etc.
 
-  <li>Plantilla_poo: manejo de estructuras de datos con POO y modularización</li>
-  <p><strong>(Nueva creación: 23/11/24)</strong></p>
-  <br/>
-  <p>NOTA: para la visualización y funcionamiento correctos de los ejercicios es necesario usar Live Server, ya que los scripts JS se importan de manera dinámica.</p>
-  <p>- Creación de la sección Estructuras, que contiene los ejercicios de Pila, Cola y Lista.</p>
-  <p>- Creación y manejo de clases, objetos y métodos en cada estructura de datos.</p>
-  <p>- Modularización de los scripts, uso de import y export.</p>
+### [Plantilla_poo: Estructuras de datos con POO](https://rxy94.github.io/javascript_dwec/plantilla_poo/login.html)
+**(Nueva creación: 23/11/24)**  
+> ⚠️ *Requiere Live Server para funcionamiento correcto (uso de módulos)*
 
-</ul>
-<br/>
-<br/>
-<footer>Autora: Ruyi Xia Ye</footer>
+- Sección **Estructuras** con:
+  - Pila
+  - Cola
+  - Lista
+- Clases, objetos y métodos
+- Modularización con `import/export`
+
+---
+
+## Autora
+
+**Ruyi Xia Ye**
